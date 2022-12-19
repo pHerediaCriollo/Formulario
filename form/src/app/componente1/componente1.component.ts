@@ -22,7 +22,7 @@ export class Componente1Component implements OnInit {
     //localStorage.clear()
     
   }
-  register()
+  registrado()
   {
     this.router.navigate(['web2'])
     localStorage.setItem('nombre', this.nombre);

@@ -12,11 +12,9 @@ export class Componente2Component implements OnInit {
   contra: any;
   numero: any;
   confirmar:any;
- 
   ngOnInit():void{
     this.recuperar()
   }
-
   recuperar()
   {
     this.nombre = localStorage.getItem('nombre');
